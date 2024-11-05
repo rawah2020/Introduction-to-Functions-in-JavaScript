@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>JavaScript </title>
+
+</head>
+
+<body>
+<p id="demo1"></p> <p id="demo2"></p> <p id="demo3"></p> 
+<p id="area1"></p> <p id="demo5"></p> <p id="demo6"></p>
+
+
+
+
+<script> 
+    function plus(x,y) // funtion with two parameter
+     { 
+    var sum; 
+    sum=x+y;
+     
+    return sum; 
+
+
+
+    }
+    function sub() //funtion with no parameter 
+      { 
+        
+      }
+
+        
+
+    function cal(num1,num2,num3) // funtion with three parameter//
+    { 
+var result1;
+result1=num1+num2*num3; 
+return result1
+
+    } 
+    
+    
+
+    function triangle() 
+     { 
+     var height,base; 
+     height=50; 
+     base=40;
+     var area=height*base*0.5; 
+     document.getElementById("area1").innerHTML=area;
+    }
+
+
+
+
+    var result=plus(67,56);
+    document.getElementById("demo2").innerHTML=result;
+    sub();
+
+    var a=cal(45,87,23); 
+    document.getElementById("demo3").innerHTML=a; 
+    triangle();
+</script>
+</body>
+
+</html>
